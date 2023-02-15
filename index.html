@@ -25,16 +25,16 @@
     <!-- header navigation btwn pages -->
     <header class="header">
       <div class="container header-container">
+        <a class="logo-header link" href="./index.html">
+          <span class="web">WEB</span>STUDIO
+        </a>
         <nav class="main-nav">
-          <a class="logo-header link" href="./index.html">
-            <span class="web">WEB</span>STUDIO
-          </a>
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link link current" href="./index1.html">Studio</a>
+              <a class="navigation-link link current" href="./index.html">Studio</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link link" href="./portfolio1.html">Portfolio</a>
+              <a class="navigation-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link link" href="#">Contacts</a>
@@ -48,13 +48,13 @@
         </button>
         <address class="header-adr">
           <ul class="contacts">
-            <li>
-              <a class="contact-link link" href="mailto:info@devstudio.com"
+            <li class="contacts-item">
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="contact-link link" href="tel:+110001111111"
+            <li class="contacts-item">
+              <a class="contacts-link link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -72,18 +72,21 @@
               <use href="./images/sprites/icons.svg#icon-close-modal"></use>
             </svg>
           </button>
+          <!-- =====Top part (flex)===== -->
           <ul class="mobile-navigation-list">
             <li class="mobile-navigation-item">
-              <a class="mobile-navigation-link link current" href="./index1.html">Studio</a>
+              <a class="mobile-navigation-link link current" href="./index.html">Studio</a>
             </li>
             <li class="mobile-navigation-item">
-              <a class="mobile-navigation-link link" href="./portfolio1.html">Portfolio</a>
+              <a class="mobile-navigation-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="mobile-navigation-item">
               <a class="mobile-navigation-link link" href="#">Contacts</a>
             </li>
           </ul>
+          <!-- ===================== -->
 
+          <!-- =====Bottom part(flex)===== -->
           <div class="mobile-menu-bottom">
             <!-- Mobile contacts -->
   
@@ -157,19 +160,20 @@
               </li>
             </ul>
           </div>
+          <!-- ===================== -->
         </div>
       </div>
     </header>
     <main>
       <!-- the slogan & order sevice -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- competencies & our features -->
       <!-- <section class="features">
         <div class="container">
