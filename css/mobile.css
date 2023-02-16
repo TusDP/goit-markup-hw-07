@@ -1,0 +1,38 @@
+@media screen and (max-width: 427px) {
+  
+  .mobile-contacts-tel {
+    font-size: calc(100vw * 0.075);
+    transition: color var(--timing-function);
+  }
+
+  .mobile-soc-list {
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+  .navigation-list {
+    display: none;
+  }
+
+  .header-adr {
+    display: none;
+  }
+
+  .header-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

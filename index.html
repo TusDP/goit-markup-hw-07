@@ -20,6 +20,9 @@
     />
     <!-- base styles -->
     <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/mobile.css"/>
+    <link rel="stylesheet" href="./css/tablet.css"/>
+    <link rel="stylesheet" href="./css/desktop.css"/>
   </head>
   <body>
     <!-- header navigation btwn pages -->
@@ -66,28 +69,30 @@
       <!-- Burger mobile menu -->
 
       <div class="mobile-menu" data-menu>
-        <div class="container mobile-menu-container">
+        <div class="container">
           <button type="button" class="mobile-menu-close-btn" data-menu-close>
             <svg class="mobile-menu-close-icon">
               <use href="./images/sprites/icons.svg#icon-close-modal"></use>
             </svg>
           </button>
           <!-- =====Top part (flex)===== -->
-          <ul class="mobile-navigation-list">
-            <li class="mobile-navigation-item">
-              <a class="mobile-navigation-link link current" href="./index.html">Studio</a>
-            </li>
-            <li class="mobile-navigation-item">
-              <a class="mobile-navigation-link link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="mobile-navigation-item">
-              <a class="mobile-navigation-link link" href="#">Contacts</a>
-            </li>
-          </ul>
+          <div>
+            <ul class="mobile-navigation-list">
+              <li class="mobile-navigation-item">
+                <a class="mobile-navigation-link link current" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-navigation-item">
+                <a class="mobile-navigation-link link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="mobile-navigation-item">
+                <a class="mobile-navigation-link link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
           <!-- ===================== -->
 
           <!-- =====Bottom part(flex)===== -->
-          <div class="mobile-menu-bottom">
+          <div>
             <!-- Mobile contacts -->
   
             <ul class="mobile-contacts">
@@ -169,7 +174,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button" data-modal-open>
+          <button class="hero-button btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
