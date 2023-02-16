@@ -75,6 +75,33 @@ body {
   border-radius: 4px;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color)
+
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color)
+}
+
 .container {
   padding-left: 16px;
   padding-right: 16px;
@@ -84,7 +111,7 @@ body {
 
 /* =====Header===== */
   .header {
-    padding-top: 24px;
+    /* padding-top: 24px; */
     background-color: var(--white-color);
 
     border-bottom: 1px solid var(--accent-color);
@@ -94,6 +121,8 @@ body {
 
   /* =====Logotype===== */
     .logo-header {
+      padding-top: 24px;
+      padding-bottom: 24px;
       font-family: "Raleway", sans-serif;
       font-weight: 800;
       font-size: 18px;
@@ -124,6 +153,7 @@ body {
 
     .navigation-link {
       display: block;
+      padding-top: 24px;
       padding-bottom: 24px;
       font-family: "Roboto";
       font-style: normal;
@@ -206,6 +236,8 @@ body {
       visibility: hidden;
       pointer-events: none;
       transition: opacity var(--timing-function), visibility var(--timing-function);
+
+      overflow-y: auto;
     }
 
     .mobile-menu.is-open {
@@ -352,7 +384,6 @@ body {
 
 
 /* ====Hero==== */
-
   .hero {
     max-width: 1440px;
     background-image: url("photo.png");
@@ -367,7 +398,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/main/background/mobile-bg.jpg);
+      url(../images/background/mobile-bg.jpg);
     background-color: var(--dark-color);
   }
 
@@ -376,7 +407,7 @@ body {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .box {
-      background-image: url(../images/main/background/mobile-bg@2x.jpg);
+      background-image: url(../images/background/mobile-bg@2x.jpg);
     }
   }
 
@@ -412,4 +443,53 @@ body {
   .hero-button:focus {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
+  }
+/* =========================== */
+
+
+/* ===Competencies & Our features===  */
+  
+  
+  .features {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  
+  .features-subtitle {
+    margin-bottom: 8px;
+  }
+
+  .features-text {
+    font-weight: 500;
+  }
+
+  
+
+  .features-icon-wrap {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 8px;
+  
+    background-color: var(--light-color);
+    border-radius: 4px;
+  }
+  
+  .features-icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .features-icon-wrap, .occupation {
+      display: none;
+    }
   }
