@@ -82,6 +82,7 @@ body {
 
 /* =====Header===== */
 
+
 @media screen and (max-width: 767px) {
   .navigation-list {
     display: none;
@@ -329,6 +330,18 @@ body {
   .hero-button:focus {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .mobile-contacts-tel {
+    font-size: calc(100vw * 0.075);
+    transition: color var(--timing-function);
+  }
+
+  .mobile-soc-list {
+    justify-content: space-between;
+    gap: 20px;
   }
 }
 
