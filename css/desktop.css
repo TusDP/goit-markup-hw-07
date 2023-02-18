@@ -72,6 +72,14 @@
   }
   
   /* ===Occupation=== */
+  .occupation {
+    padding-bottom: 120px;
+  }
+
+  .occupation-title {
+    margin-bottom: 72px;
+  }
+
   .occupation-list {
     display: flex;
     gap: 24px;
