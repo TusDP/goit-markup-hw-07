@@ -40,4 +40,45 @@
     margin-bottom: 48px;
   }
 
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .features-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .features-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  
+  .features-icon-wrap {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 8px;
+  
+    background-color: var(--light-color);
+    border-radius: 4px;
+  }
+  
+  .features-icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  /* ===Occupation=== */
+  .occupation-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .occupation-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
 }

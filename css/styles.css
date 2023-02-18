@@ -469,27 +469,10 @@ body {
     font-weight: 500;
   }
 
-  
-
-  .features-icon-wrap {
-    height: 112px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    margin-bottom: 8px;
-  
-    background-color: var(--light-color);
-    border-radius: 4px;
-  }
-  
-  .features-icon {
-    width: 64px;
-    height: 64px;
-  }
-  
   @media screen and (max-width: 1199px) {
     .features-icon-wrap, .occupation {
       display: none;
     }
   }
+/* ===================== */
+
