@@ -19,7 +19,7 @@
   .hero {
     padding-top: 112px;
     padding-bottom: 108px;
-    background-image: linear-gradient
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/background/tablet-bg.jpg);
   }
 
@@ -54,5 +54,26 @@
   .features-subtitle {
     text-align: left;
   }
+
+  /*==our team== */
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-list-item {
+    width: 264px;
+  }
+
+  .teamcard-info {
+    padding: 32px 16px;
+  }
+
 
 }

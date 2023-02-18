@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./css/desktop.css"/>
   </head>
   <body>
-    <!-- header navigation btwn pages -->
+    <!-- Header navigation -->
     <header class="header">
       <div class="container header-container">
         <a class="logo-header link" href="./index.html">
@@ -171,7 +171,7 @@
     </header>
     <main>
 
-      <!-- the slogan & order sevice -->
+      <!-- Hero -->
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
@@ -181,7 +181,7 @@
         </div>
       </section>
 
-      <!-- competencies & our features -->
+      <!-- Features & Competencies -->
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Оur Features</h2>
@@ -238,40 +238,73 @@
         </div>
       </section>
 
-      <!-- occupation -->
+      <!-- Occupation -->
       <section class="occupation">
         <div class="container">
           <h2 class="occupation-title title">What are we doing</h2>
           <ul class="occupation-list">
+
             <li class="occupation-list-item">
-              <img
-                srcset="./images/products/desktop-apps.jpg 1x, ./images/products/desktop-apps@2x.jpg 2x"
-                src="./images/products/desktop-apps.jpg"
-                alt="occupation"
-                width="360"
-              />
+              <picture>
+                <source 
+                  srcset="./images/products/desktop-apps.jpg 1x, ./images/products/desktop-apps@2x.jpg 2x" 
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/products/desktop-apps.webp 1x, ./images/products/desktop-apps@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                >
+                <img
+                  src="./images/products/desktop-apps.jpg"
+                  alt="desktop-apps"
+                  width="360"
+                />
+              </picture>
             </li>
+
             <li class="occupation-list-item">
-              <img
-              srcset="./images/products/mobile-apps.jpg 1x, ./images/products/mobile-apps@2x.jpg 2x"
-                src="./images/products/mobile-apps.jpg"
-                alt="occupation"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="./images/products/mobile-apps.jpg 1x, ./images/products/mobile-apps@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                >
+                <source
+                  srcset="./images/products/mobile-apps.webp 1x, ./images/products/mobile-apps@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                >
+                <img
+                  src="./images/products/mobile-apps.jpg"
+                  alt="mobile-apps"
+                  width="360"
+                />
+              </picture>
             </li>
+
             <li class="occupation-list-item">
-              <img
-              srcset="./images/products/apps-design.jpg 1x, ./images/products/apps-design@2x.jpg 2x"
-                src="./images/products/apps-design.jpg"
-                alt="occupation"
-                width="360"
-              />
+              <picture>
+                <source
+                srcset="./images/products/apps-design.jpg 1x, ./images/products/apps-design@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                >
+                <source
+                  srcset="./images/products/apps-design.webp 1x, ./images/products/apps-design@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                >
+                <img
+                  src="./images/products/apps-design.jpg"
+                  alt="apps-design"
+                  width="360"
+                />
+              </picture>
             </li>
           </ul>
         </div>
       </section>
 
-      <!-- our team -->
+      <!-- Our team -->
       <section class="team">
         <div class="container">
           <h2 class="team-title title">Our Team</h2>
@@ -567,10 +600,11 @@
           </ul>
         </div>
       </section>
-      <!-- customers -->
-      <!-- <section class="customers">
+
+      <!-- Customers -->
+      <section class="customers">
         <div class="container">
-          <h2 class="section-title">customers</h2>
+          <h2 class="customers-title title">Customers</h2>
           <ul class="customers-list">
             <li class="customers-list-item">
               <a
@@ -652,7 +686,7 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
     <!-- footer -->
     <!-- <footer class="footer">
       <div class="container footer-container">
