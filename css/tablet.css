@@ -8,6 +8,18 @@
     display: none;
   }
 
+  .current::after {
+    position: absolute;
+    display: block;
+    content: "";
+
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    background-color: var(--pressed-state-color);
+    border-radius: 2px;
+  }
+
   .navigation-list {
     margin-left: 120px;
   }
@@ -125,5 +137,10 @@
     max-width: 408px;
     padding-right: 24px;
     padding-left: 24px;
+  }
 
+  /* ==Portfolio== */
+  .select-menu {
+    column-gap: 24px;
+  }
 }
