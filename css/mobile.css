@@ -1,5 +1,4 @@
 @media screen and (max-width: 427px) {
-  
   .mobile-contacts-tel {
     font-size: calc(100vw * 0.075);
     transition: color var(--timing-function);
@@ -17,11 +16,9 @@
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-  
   .navigation-list {
     display: none;
   }
@@ -43,5 +40,4 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-
 }
