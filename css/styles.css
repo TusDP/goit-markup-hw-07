@@ -741,8 +741,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 408px;
-  padding: 72px 24px 24px 24px;
+  max-width: 392px;
+  width: calc(100% - 36px);
+  padding: 72px 16px 24px 16px;
 
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -769,18 +770,14 @@ body {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: var(--secondary-btn-color);
+  background-color: var(--pressed-state-color);
+  fill: var(--white-color);
 }
 
 .modal-close-btn-icon {
   width: 8px;
   height: 8px;
   transition: fill var(--timing-function);
-}
-
-.modal-close-btn:hover .modal-close-btn-icon,
-.modal-close-btn:focus .modal-close-btn-icon {
-  fill: var(--secondary-filter-btn-textcolor);
 }
 
 /* =========modal forms========= */
