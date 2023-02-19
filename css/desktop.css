@@ -99,6 +99,38 @@
     flex-basis: calc((100% - 72px) / 4);
   }
 
+  /* ==customers== */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+
+  /* ==footer== */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 0;
+  }
+
+  .footer-info {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-soc {
+    margin-right: 80px;
+  }
+
+
 
 
 
