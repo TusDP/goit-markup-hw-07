@@ -104,7 +104,6 @@
 
   /* ==footer== */
   .footer-container {
-    padding-left: 108px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -146,4 +145,10 @@
     column-gap: 24px;
   }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-container {
+    padding-left: 108px;
+  }
 }
