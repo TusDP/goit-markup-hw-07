@@ -24,10 +24,6 @@
     margin-left: 120px;
   }
 
-  .header-adr {
-    padding-top: 24px;
-  }
-
   .hero {
     padding-top: 112px;
     padding-bottom: 108px;
@@ -51,11 +47,11 @@
   }
 
   .hero-title {
+    max-width: 496px;
     margin-bottom: 40px;
 
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
   }
 
   .features-list {

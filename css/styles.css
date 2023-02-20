@@ -101,8 +101,8 @@ body {
 }
 
 .container {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* =====Logotype===== */
@@ -116,8 +116,6 @@ body {
 }
 
 .logo-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   color: var(--dark-color);
 }
 .logo-footer {
@@ -132,7 +130,6 @@ body {
 
 /* =====Header===== */
 .header {
-  /* padding-top: 24px; */
   background-color: var(--white-color);
 
   border-bottom: 1px solid var(--accent-color);
@@ -143,6 +140,7 @@ body {
 /* =====Header navigation===== */
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .navigation-list {
@@ -221,9 +219,15 @@ body {
   z-index: 10;
   width: 100%;
   height: 100%;
-  max-height: 795px;
+
   background-color: var(--white-color);
-  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4);
+
+  /* 
+    //==Add backdrop effect==//
+
+    max-height: 795px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4); 
+  */
 
   opacity: 0;
   visibility: hidden;
@@ -330,7 +334,7 @@ body {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
-  color: var(--text-color);
+  color: var(--primary-brand-color);
   text-transform: capitalize;
 }
 
@@ -377,7 +381,8 @@ body {
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 112px 54px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 
   text-align: center;
   background-size: cover;
@@ -404,6 +409,8 @@ body {
 }
 
 .hero-title {
+  max-width: 320px;
+  margin: 0 auto;
   margin-bottom: 72px;
 
   font-weight: 700;
